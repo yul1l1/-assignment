@@ -1,0 +1,241 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header_top start  */
+
+#page {
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+#nav {
+  background-color: #1d75de;
+  height: 53px;
+}
+
+#nav .nav_ma {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 1170px;
+  margin: 0 auto;
+}
+
+#nav a {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#nav i {
+  color: #fff;
+}
+
+/* header_top end */
+/* header_under start */
+
+#header {
+  height: 80px;
+  background-color: #000;
+  color: #fff;
+}
+
+#header #header_inline {
+  width: 1170px;
+  height: 80px;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#header .header_left {
+  font-size: 26px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+#header .fa-spotify {
+  font-size: 42px;
+  padding: 0 5px;
+}
+
+#header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 28px 17px;
+}
+
+#header ul {
+  display: flex;
+  align-items: center;
+}
+
+#header li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#header .header_right_border {
+  padding: 28px 20px;
+}
+
+/* header_under end */
+/* section start */
+
+#section {
+  background-color: #ffcdd2;
+  width: 1903px;
+  height: 553px;
+}
+
+#section .section_inline {
+  width: 1140px;
+  height: 553px;
+  padding: 72px 0;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#section h1 {
+  font-size: 60px;
+}
+
+#section h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin: 30px 0 0;
+}
+
+#section .section_link {
+  display: flex;
+  align-items: center;
+  margin: 35px 0 0;
+}
+
+#section .app {
+  width: 130px;
+  height: 40px;
+}
+#section .goole {
+  width: 150px;
+  height: 60px;
+}
+
+#section p {
+  font-size: 12px;
+  margin: 30px;
+}
+
+/* section end */
+/* footer start */
+
+#footer {
+  background-color: #000;
+  color: #fff;
+  width: 1903px;
+  height: 532px;
+  padding: 80px 0 50px;
+}
+
+#footer .footer_inline {
+  width: 1170px;
+  height: 402px;
+  display: flex;
+  margin: 0 auto;
+}
+
+#footer .footer_inline .footer_inline_top {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#footer .footer_logo {
+  color: #fff;
+  padding: 0 15px;
+}
+
+#footer .footer_left {
+  font-size: 26px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+#footer dl {
+  padding: 0 15px;
+  width: 195px;
+  display: block;
+  box-sizing: border-box;
+}
+
+#footer dt {
+  margin: 20px 0;
+}
+
+#footer dd {
+  padding: 3px 0 15px;
+}
+
+#footer .footer_center {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 346px;
+}
+
+#footer .footer_inline a {
+  color: #fff;
+  text-decoration: none;
+  padding: 3px 0 15px;
+  font-size: 16px;
+}
+
+#footer .fa-spotify {
+  font-size: 42px;
+  padding: 0 5px;
+}
+
+#footer .fa-instagram,
+.fa-twitter {
+  font-size: 24px;
+  background-color: #222326;
+  padding: 15px 17px;
+  border-radius: 35px;
+  margin: 10px;
+}
+
+#footer .fa-facebook {
+  font-size: 24px;
+  background-color: #222326;
+  padding: 15px 22px;
+  border-radius: 35px;
+  margin: 5px;
+}
+
+#footet .footer_under_fir {
+  height: 16px;
+  padding: 0 15px;
+}
+
+#footet .footer_under_fir a {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+#footer .footer_center_ma {
+  display: flex;
+}
+
+/* footer end */
