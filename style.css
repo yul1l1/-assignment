@@ -35,6 +35,10 @@
   color: #fff;
 }
 
+#nav i:hover {
+  cursor: pointer;
+}
+
 /* header_top end */
 /* header_under start */
 
@@ -61,6 +65,10 @@
   align-items: center;
 }
 
+#header .header_left:hover {
+  cursor: pointer;
+}
+
 #header .fa-spotify {
   font-size: 42px;
   padding: 0 5px;
@@ -82,6 +90,9 @@
   font-size: 16px;
   font-weight: 400;
 }
+#header .header_right a:hover {
+  color: #1ed760;
+}
 
 #header .header_right_border {
   padding: 28px 20px;
@@ -92,7 +103,6 @@
 
 #section {
   background-color: #ffcdd2;
-  width: 1903px;
   height: 553px;
 }
 
@@ -123,6 +133,10 @@
   margin: 35px 0 0;
 }
 
+#section .section_link img:hover {
+  cursor: pointer;
+}
+
 #section .app {
   width: 130px;
   height: 40px;
@@ -139,103 +153,143 @@
 
 /* section end */
 /* footer start */
-
 #footer {
   background-color: #000;
-  color: #fff;
-  width: 1903px;
-  height: 532px;
-  padding: 80px 0 50px;
-}
-
-#footer .footer_inline {
-  width: 1170px;
-  height: 402px;
-  display: flex;
-  margin: 0 auto;
-}
-
-#footer .footer_inline .footer_inline_top {
+  height: 534px;
   display: flex;
   justify-content: center;
-  margin: 0 auto;
-}
-
-#footer .footer_logo {
-  color: #fff;
-  padding: 0 15px;
-}
-
-#footer .footer_left {
-  font-size: 26px;
-  font-weight: 600;
-  display: flex;
   align-items: center;
 }
 
-#footer dl {
-  padding: 0 15px;
-  width: 195px;
-  display: block;
-  box-sizing: border-box;
-}
-
-#footer dt {
-  margin: 20px 0;
-}
-
-#footer dd {
-  padding: 3px 0 15px;
-}
-
-#footer .footer_center {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  width: 346px;
-}
-
-#footer .footer_inline a {
-  color: #fff;
-  text-decoration: none;
-  padding: 3px 0 15px;
-  font-size: 16px;
-}
-
-#footer .fa-spotify {
-  font-size: 42px;
+#footer .footer_nav {
+  height: 402px;
+  margin: 0 auto;
   padding: 0 5px;
 }
 
-#footer .fa-instagram,
-.fa-twitter {
-  font-size: 24px;
-  background-color: #222326;
-  padding: 15px 17px;
-  border-radius: 35px;
-  margin: 10px;
+#footer .footer_nav_top {
+  display: flex;
+  justify-content: center;
 }
 
-#footer .fa-facebook {
-  font-size: 24px;
-  background-color: #222326;
-  padding: 15px 22px;
-  border-radius: 35px;
-  margin: 5px;
-}
-
-#footet .footer_under_fir {
-  height: 16px;
+#footer .footer_nav_logo {
+  width: 160px;
+  height: 346px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  display: flex;
   padding: 0 15px;
 }
 
-#footet .footer_under_fir a {
-  font-weight: 400;
+#footer .footer_nav_logo:hover {
+  cursor: pointer;
+}
+
+#footer .footer_nav_logo .fa-spotify {
+  font-size: 41px;
+  padding-right: 5px;
+}
+
+#footer .footer_nav_menu {
+  display: flex;
+  flex-direction: row;
+}
+
+#footer .footer_nav dl {
+  padding: 0px 15px;
+  height: 346px;
+}
+
+#footer .footer_nav dt {
+  color: #919496;
+  margin: 20px 0;
   font-size: 12px;
 }
 
-#footer .footer_center_ma {
+#footer .footer_nav dd {
+  width: 165px;
+  height: 42px;
+}
+
+#footer .footer_nav a:hover {
+  color: #1ed760;
+}
+
+#footer .footer_nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 3px 0 15px;
+}
+
+#footer .footer_nav_svelte {
+  width: 192px;
+  height: 346px;
+  margin: 0 15px 0 183px;
   display: flex;
+}
+
+#footer .footer_nav_svelte .ul {
+  padding: 0;
+  margin: 20px 0 0;
+  list-style: none;
+  display: flex;
+}
+
+#footer .footer_nav_svelte li {
+  display: flex;
+  justify-content: center;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: #222326;
+  width: 54px;
+  height: 54px;
+  margin: 0 15px 0 0;
+}
+
+#footer .footer_nav_svelte .ul a {
+  font-size: 26px;
+  border-radius: 50%;
+  background-color: #222326;
+}
+
+#footer .footer_nav_mid {
+  display: flex;
+  justify-content: end;
+  margin: 0 15px;
+}
+
+#footer .footer_nav_mid a {
+  font-size: 12px;
+  color: #919496;
+}
+
+#footer .footer_nav_mid a i {
+  padding-right: 8px;
+}
+
+#footer .footer_nav_bottom {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #919496;
+  margin: 0 15px;
+}
+
+#footer .footer_nav_bottom a {
+  color: #919496;
+  padding: 12px 0;
+}
+
+#footer .footer_nav_bottom li {
+  padding: 0;
+  margin-right: 24px;
+}
+
+#footer .footer_nav_bottom .footer_nav_bottom_li {
+  list-style: none;
+  display: flex;
+  margin: 0 45px 0 0;
 }
 
 /* footer end */
